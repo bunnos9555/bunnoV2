@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "REPO_NAME=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$REPO_NAME/bunno.py",
+    "postStartCommand": "REPO_NAME=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/bunnoV2/bunno.py",
     "customizations": {
         "vscode": {
             "settings": {
